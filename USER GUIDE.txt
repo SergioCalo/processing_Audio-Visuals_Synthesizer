@@ -1,0 +1,94 @@
+Processing code sythesizer
+
+All code in this repository
+
+
+User guide:
+Keyboard:
+
+"1,2,3,4,5" - OSC1 waveform
+
+"q,w,e,r,t" - OSC1 waveform
+
+'a':
+    // record a sample
+'s'
+    // save the recording
+
+
+'d':
+     // note with delay effect
+
+noise:
+'z':
+    // scale the table so that the largest value is -1/1.
+
+'x':
+    // smooth out the table, similar to applying a low pass filter
+
+'c':
+    // change all negative values to positive values
+
+'v':
+    // add white noise
+
+'b':
+   // scale( 1.1f );
+
+'n':
+   // scale( 0.9f );
+
+
+
+
+
+VISUALS
+
+Visuals are designed to perform, so some parameters are assigned to sound values.
+
+Visuals 1:
+
+size - ENV frequency
+Rotation speed - OSC1 frequency
+
+Visuals 2:
+
+speed - amplitude
+color - frequency
+
+
+
+'p':
+   // change visuals
+
+
+
+
+
+MIDI
+
+This synthesizer can be controlled by midi input.
+
+To map your controller:
+
+pads:
+40 - ON/OFF
+41 - ENV ON/OFF
+42 - LPF ON/OFF
+38 - BandPass ON/OFF
+57- noise ON/OFF
+60, 62, 64, 65, 67 - drum sample pads
+72 - loop your recording
+
+knobs:
+1 - OSC1 freq
+2 - OSC2 freq
+3 - ENV freq
+4 - OSC3 freq
+5 - amp/n1
+6 - n2
+7 - a
+8 - b
+
+
+
